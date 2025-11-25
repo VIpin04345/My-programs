@@ -21,6 +21,7 @@ print('hello world')
 # (solution with exponentiation)
 
 # num=81
+
 num = int(input("enter a number:-"))
 sr = num ** (1/2)  or (0.5)
 print("the square root of the given number is ", sr)
@@ -80,3 +81,174 @@ print(x,y)
 import random
 number=random.randint(1000,9999)
 print(number)
+
+
+# write a program to print from 1 to 10.
+
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
+print()
+
+for i in range(1, 11):
+    print(i)
+print()
+
+# write a program to print from 1 to n.
+
+n = int(input("enter a number:-"))
+i = 1
+while i <= n:
+    print(i)
+    i += 1
+print()
+
+
+n = int(input("enter a number:-"))
+for i in range(1, n + 1):
+    print(i)
+print()
+
+
+
+
+
+i = 10
+while i >= 1:
+    print(i)
+    i -= 1
+print()
+
+for i in range(10, 1 - 1, -1):
+    print(i)
+print()
+
+# write a program to print from n to 1.
+
+
+n = int(input("enter a number:-"))
+i = 1
+while n >= i:
+    print(n)
+    n -= 1
+print()
+n = int(input("enter a number:-"))
+for i in range(n, 0, -1):
+    print(i)
+
+# write a program to print sum of n to 1.
+
+n = int(input("enter a number:-"))
+sum = 0
+i = 1
+while i <= n:
+    sum = sum + i
+    i += 1
+print(sum)
+
+
+n = int(input("enter a number:-"))
+sum = 0
+i = 1
+for i in range(n, i - 1, -1):
+    sum = sum + i
+print(sum)
+
+
+n = int(input("enter your number:-"))
+i = 1
+sum = 0
+while i <= n:
+    sum = sum + i
+    i += 1
+print(sum)
+
+# write a program to print sum of squre of 1 to n natural numbers.
+
+
+n = int(input("enter a number:"))
+sum = 0
+i = 1
+while i <= n:
+    sum = sum + i**2
+    i += 1
+print(sum)
+
+
+n = int(input("enter a number:"))
+sum = 0
+i = 1
+for i in range(n, i - 1, -1):
+    sum += i**2
+    i += 1
+print(sum)
+
+# write a program to print sum of cube of 1 to n natural numbers.
+
+
+n = int(input("enter a number:"))
+sum = 0
+i = 1
+while i <= n:
+    sum = sum + i**3
+    i += 1
+print(sum)
+
+n = int(input("enter a number:"))
+sum = 0
+i = 1
+for i in range(n, i - 1, -1):
+    sum += i**3
+    i += 1
+print(sum)
+
+# write a program to print only even number between 1 to n.
+
+
+n = int(input("enter a number:-"))
+i = 1
+while i <= n:
+    if i % 2 == 0:
+        print(i)
+    i += 1
+
+
+n = int(input("enter a number:-"))
+i = 1
+for i in range(i, n + 1):
+    if i % 2 == 0:
+        print(i)
+
+
+# write a program to find sum of even number from 1 to n.
+
+n = int(input("entera number:-"))
+sum = 0
+i = 1
+while i <= n:
+    if i % 2 == 0:
+        sum += i
+    i += 1
+print(sum)
+
+
+n = int(input("enter a number"))
+sum = 0
+i = 1
+for i in range(i, n + 1):
+    if i % 2 == 0:
+        sum += i
+print(sum)
+
+
+# write a program to find sum of first n even numbers.
+
+n = int(input("enter  number :-"))
+sum = 0
+i = 1
+while i <= n:
+    if i % 2 != 0:
+        sum = sum + i
+    i += 1
+print(sum)
