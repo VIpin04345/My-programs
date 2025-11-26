@@ -394,3 +394,7 @@ print(str.count('p'))
 
 str='2345'
 print(str.isdecimal())
+
+str="shubham"
+for i in str:
+    print(i+&)
