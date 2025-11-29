@@ -527,3 +527,21 @@ if x==rev:
 else:
     print('not palin')
 
+
+
+
+
+
+#  write a program to find the fibonecci series
+
+n=int(input('enter a number:-'))
+x=0
+y=1
+z=0
+while z<=n:
+    print(z)
+    x=y
+    y=z
+    z=x+y
+    x+=1
+
