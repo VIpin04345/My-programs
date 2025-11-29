@@ -508,3 +508,22 @@ if x==rev:
 else:
     print('not palin')
 
+
+
+
+
+ # write a program to check weather the number is palindrom or not
+
+n=int(input('enter aa number:-'))
+rev=0
+x=n
+while n>0:
+    digit=n%10
+    rev=rev*10+digit
+    n//=10
+    
+if x==rev:
+    print('palin')
+else:
+    print('not palin')
+
