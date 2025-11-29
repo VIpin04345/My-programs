@@ -545,3 +545,18 @@ while z<=n:
     z=x+y
     x+=1
 
+
+
+
+ # write a program to reverse  a given numbers.
+
+n=int(input('enter a number'))
+rev=0
+while n>0:
+    digit=n%10
+    rev=rev*10+digit
+    n//=10
+print(rev)
+
+
+
