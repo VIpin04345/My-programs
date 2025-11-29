@@ -575,3 +575,19 @@ while n>0:
     n//=10
 print(sum,prod)
 
+
+
+# WRITE  A PROGRM TO CHECK WEATHER THE NUMBER IS ARMSTRONG OR NOT .
+
+n=int(input('enter a number'))
+sum=0
+temp=n
+len=len(str(n))
+while n>0:
+    digit=n%10
+    sum+=digit**len
+    n//=10
+if temp==sum:
+    print ('arm')
+else:
+    print('not arm')
