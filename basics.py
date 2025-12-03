@@ -649,3 +649,19 @@ def vowels(str):
             count+=1
     return count
 print(vowels('shubhamUU'))
+
+
+
+# Function to return max of three numbers.
+
+
+def max_number(a, b, c):
+    if a > b and a>c:
+        print(a, "is max")
+    elif b > a and b>c:
+        print(b, "is max")
+    else:
+        print(c, "is max")
+
+
+max_number(60, 50, 40)
