@@ -674,3 +674,14 @@ for i in str:
     else:
         freq[i]+=1
 print(freq)  
+
+
+# dictionary into the python.............
+
+
+fees = {"anand": 2000, "shubham": 74200, "ajay": 300}
+print(fees)
+print(fees["shubham"])
+for o in fees:
+    print(o)
+
