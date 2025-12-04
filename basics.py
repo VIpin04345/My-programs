@@ -723,3 +723,18 @@ k = {1: "a", 2: "b", 3: "c", 4: "d"}
 k.popitem()
 print(k)
 
+
+
+
+
+
+# convert list into dictionary............
+
+
+roll = [101, 102, 103]
+name = ["akash", "vishal", "vipul"]
+z = zip(roll, name)
+d = dict(z)
+print(d)
+print(d[103])
+
