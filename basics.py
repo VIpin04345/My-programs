@@ -810,8 +810,8 @@ print(math.factorial(4))
 
 # 2> (ceil())
 
-# import math
-# print(math.ceil(4.56))
+import math
+print(math.ceil(4.56))
 
 
 # 3> (floor())
