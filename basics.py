@@ -816,12 +816,12 @@ print(math.ceil(4.56))
 
 # 3> (floor())
 
-# import math
-# print(math.floor(3.2)) 
+import math
+print(math.floor(3.2)) 
 
 # 4> (sqrt())
 
-# import math
-# print(math.sqrt(10))
+import math
+print(math.sqrt(10))
 
 
