@@ -776,7 +776,7 @@ print(choice(l1))
 
 
 
-2> (randint())
+# 2> (randint())
 from random import randint
 otp=randint(1324,9786)
 print(otp)
@@ -784,10 +784,10 @@ print(otp)
 
 # 3> (suffle())
 
-# from random import shuffle
-# l1=['apple','banana','grapes','guvava']
-# shuffle(l1)
-# print(l1)
+from random import shuffle
+l1=['apple','banana','grapes','guvava']
+shuffle(l1)
+print(l1)
 
 
 
