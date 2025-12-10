@@ -847,3 +847,89 @@ for i in range(1, n+1):
     print(" "*(n-i) + "*"*(2*i-1))
 
 
+# EXCEPTION CREATING
+
+a=int(input('enter a number'))
+print("a",a)
+# we got a wrong input by the user
+print('bye')
+
+
+a=int(input('enter the value of A:'))
+b=int(input('enter the value of B:'))
+c=a/b # axeception occure on runtime devisor by 0
+print('answer',c)
+print('bye')
+
+
+#  NOW WE HAVE TO HANDLE THIS KIND OF THE EXCEPTION IN PYTHON
+
+
+# WE USE TRY: BLOCK 
+# the code which is written try block can be occure error at run time
+
+
+
+#     SINGLE EXCEPTION HANDLING
+# try:
+    
+#   a=int(input('enter the value of A:'))
+#   b=int(input('enter the value of B:'))
+#   c=a/b      # axeception occure on runtime devisor by 0
+#   print('answer',c)
+# except Exception as e:
+#   print("exception caught:", e)
+# print('bye')
+
+
+#     MANY EXCEPTION HANDLING
+
+# try:
+#     print(x)
+# except NameError:
+#     print('variable is not define')
+# except:
+#     print('exception caught')    
+
+
+#   HOE TO USE ELSE WITH EXCEPTION PART
+
+# try:
+#     print('hello')
+# except :
+#     print('something went wrong')
+# else:
+#     print('nothing went wrong')    
+
+
+#   FINALLY BLOCK
+
+# it is run compulsury if error occure or not
+
+
+# try:
+#     print('hello')
+# except :
+#     print('something went wrong')
+# finally:
+#     print('finaly block')
+
+# try:
+#     print(x)
+# except :
+#     print('something went wrong')
+# finally:
+#     print('finaly block')
+
+
+
+# USER DEFINE EXCEPTION
+
+
+# class MyException(Exception):
+#     pass
+
+# c=25
+# if c>5:
+#     raise MyException('something went wrong')
+
