@@ -884,12 +884,12 @@ print('bye')
 
 #     MANY EXCEPTION HANDLING
 
-# try:
-#     print(x)
-# except NameError:
-#     print('variable is not define')
-# except:
-#     print('exception caught')    
+try:
+    print(x)
+except NameError:
+    print('variable is not define')
+except:
+    print('exception caught')    
 
 
 #   HOE TO USE ELSE WITH EXCEPTION PART
