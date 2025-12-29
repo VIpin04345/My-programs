@@ -903,24 +903,24 @@ else:
     print('nothing went wrong')    
 
 
-#   FINALLY BLOCK
+#  FINALLY BLOCK
 
 # it is run compulsury if error occure or not
 
 
-# try:
-#     print('hello')
-# except :
-#     print('something went wrong')
-# finally:
-#     print('finaly block')
+try:
+    print('hello')
+except :
+    print('something went wrong')
+finally:
+    print('finaly block')
 
-# try:
-#     print(x)
-# except :
-#     print('something went wrong')
-# finally:
-#     print('finaly block')
+try:
+    print(x)
+except :
+    print('something went wrong')
+finally:
+    print('finaly block')
 
 
 
