@@ -59,3 +59,32 @@ Bash--
 Bash--
    * python filename.py
 
+# ✨ Features
+
+* Beginner-friendly code
+
+* Proper comments for easy understanding
+
+* Logical approach to problems
+
+* Useful for interview prep
+
+* Regularly updated
+
+# 📚 Topics Covered
+
+* Variables & Data Types
+
+* If-Else & Loops
+
+* Functions
+
+* Lists, Tuples, Sets, Dictionaries
+
+* File Handling
+
+* OOP in Python
+
+* Basic DSA
+
+* Mini Projects
