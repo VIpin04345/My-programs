@@ -43,16 +43,19 @@ Perfect for:
 # ▶️ How to Run the Code
 
 1. Clone the repository
+   
 Bash--
    * git clone https://github.com/VIpin04345
 
 
 2. Go to the project folder
+   
 --Bash
    * cd python-projects
 
 
 3. Run any file
+   
 Bash--
    * python filename.py
 
