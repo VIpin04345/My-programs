@@ -29,6 +29,6 @@ Perfect for:
 
 * Python 3.8+
 * Any code editor
-* VS Code
-* PyCharm
-* Notepad++
+   * VS Code
+   * PyCharm
+   * Notepad++
