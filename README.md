@@ -88,3 +88,43 @@ Bash--
 * Basic DSA
 
 * Mini Projects
+
+# 🛠️ Mini Projects Included
+
+* Number Guessing Game
+
+* Calculator
+
+* To-Do List App
+
+* Password Generator
+
+* Student Management System
+
+# 🤝 Contributing
+
+Want to improve this repo?
+
+1. Fork the repo
+
+2. Create a new branch
+
+3. Add your changes
+
+4. Submit a Pull Request
+
+5. All contributions are welcome! 🙌
+
+# 📄 License
+
+This project is licensed under the MIT License — feel free to use and modify it.
+
+# 👤 Author
+
+Vipin Yadav
+
+💼 Aspiring Software Engineer
+
+🐍 Python Developer
+
+📫 Connect with me on LinkedIn / GitHub
