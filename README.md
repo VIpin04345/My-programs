@@ -32,3 +32,8 @@ Perfect for:
    * VS Code
    * PyCharm
    * Notepad++
+
+
+# Check version:
+--Bash
+   * python --version
