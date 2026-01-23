@@ -3,11 +3,10 @@
 # (solution with predefine variables)
 num1=30
 num2= 40
-sum=num1+num2
+num3=78
+sum=num1+num2+num3
 print('the sum of given number is',sum)
    
-
-
 
 
 # (solution with user input)
