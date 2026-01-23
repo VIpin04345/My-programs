@@ -8,6 +8,8 @@ print('the sum of given number is',sum)
    
 
 
+
+
 # (solution with user input)
 
 num=float(input('enter a number '))
